@@ -18,6 +18,7 @@ class String
   end
 
   def count_sentences
-
+    punctuation
+    self.split 
   end
 end
